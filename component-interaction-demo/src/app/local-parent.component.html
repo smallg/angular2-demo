@@ -3,3 +3,9 @@
 <button (click)="timer.stop()">Stop</button>
 <div class="seconds">{{timer.seconds}}</div>
 <local-child #timer></local-child>
+
+<p> test in parent ctrl</p>
+<button (click)="start()">Start</button>
+<button (click)="stop()">Stop</button>
+<div class="seconds">{{timer.seconds}}</div>
+<local-child></local-child>
