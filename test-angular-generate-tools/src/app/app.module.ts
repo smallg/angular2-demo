@@ -5,6 +5,7 @@ import {AppComponent} from './app.component';
 import {PipesModule} from "./pipes/pipes.module";
 import {ShareModules} from "./share-modules/share-modules.module";
 import {ShareDirectivesModule} from "./share-directives/share-directives.module";
+import {ServicesModule} from "./services/services.module";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {ShareDirectivesModule} from "./share-directives/share-directives.module"
     BrowserModule,
     PipesModule,
     ShareModules,
-    ShareDirectivesModule
+    ShareDirectivesModule,
+    ServicesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
