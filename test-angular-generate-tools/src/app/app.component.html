@@ -1,0 +1,9 @@
+<div class="container">
+  <app-common-title></app-common-title>
+  <div class="card" [add-active-class]="true">
+    <div class="card-block" [add-active-class]="false">
+      {{name | sliceString:0:6 | uppercase}}
+    </div>
+  </div>
+</div>
+
